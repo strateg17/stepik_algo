@@ -7,7 +7,7 @@ def fractional_knapsack(capacity, values_and_weights):
   acc = 0
   
   for v_per_w, w in order:
-    if w < capacity:
+    if w <= capacity:
       acc += v_per_w * w
       capacity -= w
     else:
