@@ -12,6 +12,7 @@ def fractional_knapsack(capacity, values_and_weights):
       capacity -= w
     else:
       acc += v_per_w * capacity
+      break
       
   return acc
 
