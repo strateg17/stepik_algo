@@ -1,6 +1,6 @@
 import sys
 
-def fractional_knapsack(capacity, values_and_weights)
+def fractional_knapsack(capacity, values_and_weights):
   order = [(v / w, w) for v, w in values_and_weights]
   order.sort(reverse=True)
   
